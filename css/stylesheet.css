@@ -1,0 +1,158 @@
+
+/* Font */
+@font-face {
+	font-family:LuciaBT;
+	src: url("LuciaBT.ttf") format('truetype');
+}
+
+body {
+	background-color: #F1F1EF;
+	min-width: 1000px;
+}
+.HeadNav header, ul{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#SwanL {
+	transform: scaleX(-1);
+}
+
+header img {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 1px;
+	margin-right: 1px;
+	height: 160px;
+	width: 81px;
+}
+
+#Logo {
+	height: 180px;
+	width: 180px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 6px;
+	background-color: #EBD7E2;
+}
+
+li {
+	display: inline;
+	margin: 12px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+li a {
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	font-family: LuciaBT;
+	font-size: 54px;
+}
+
+li a:hover {
+	color: #AF9390;
+}
+
+.BaseImages {
+	height: 25%;
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.GalImages {
+	height: 30%;
+	width: 30%;
+	display: inline-block;
+}
+
+.Gallery {
+	text-align: justify;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.Gallery:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.Footer img {
+	height: 100px;
+	width: 100px;
+}
+
+.Footer a {
+	text-decoration: none;
+	padding: 10px;
+	color: #AF9390;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	color: #AF9390;
+	font-family: LuciaBT;
+}
+
+h1 {
+	font-size: 96px;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-size: 72px;
+	text-align: center;
+	margin: 0;
+}
+
+h3 {
+	font-size: 58px;
+	text-align: center;
+	margin: 0;
+}
+
+p, .Footer, label {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	font-family: "Times New Roman", Times, serif;
+	color: #AF9390;
+	font-size: 28px;
+	padding: 16px;
+}
+
+div form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input, select, textarea {
+	padding: 14px;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
